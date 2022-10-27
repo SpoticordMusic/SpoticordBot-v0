@@ -1,0 +1,6 @@
+bin/
+Lavalink/
+obj/
+
+DiscordMusicBot.csproj.user
+.vs/

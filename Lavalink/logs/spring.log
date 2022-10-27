@@ -1,0 +1,203 @@
+2021-01-21 13:11:37.160  INFO 26864 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.2.2
+	Build:          1155
+	Build time:     28.11.2020 11:50:13 UTC
+	Branch          dev
+	Commit:         23c883a
+	Commit time:    28.11.2020 11:42:10 UTC
+	JVM:            11.0.6
+	Lavaplayer      1.3.61
+
+2021-01-21 13:11:37.384  INFO 26864 --- [main] lavalink.server.Launcher                 : Starting Launcher on WIN10-PC with PID 26864 (C:\Users\Daan\source\repos\DiscordMusicBot\DiscordMusicBot\Lavalink\Lavalink.jar started by Daan in C:\Users\Daan\source\repos\DiscordMusicBot\DiscordMusicBot\Lavalink)
+2021-01-21 13:11:37.390  INFO 26864 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-01-21 13:11:37.506  WARN 26864 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-21 13:11:39.980  WARN 26864 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-01-21 13:11:40.011  INFO 26864 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-01-21 13:11:40.011  INFO 26864 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2548 ms
+2021-01-21 13:11:40.527  WARN 26864 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-01-21 13:11:40.731  INFO 26864 --- [main] c.s.l.e.y.tools.ip.Ipv6Block             : Using Ipv6Block with 1208925819614629174706176 addresses
+2021-01-21 13:11:40.741  INFO 26864 --- [main] c.s.l.e.y.planner.AbstractRoutePlanner   : Active RoutePlanner: com.sedmelluq.lava.extensions.youtuberotator.planner.BalancingIpRoutePlanner using total of 1208925819614629174706176 ips
+2021-01-21 13:11:41.056  INFO 26864 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-01-21 13:11:41.382  INFO 26864 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-01-21 13:11:41.412  WARN 26864 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-01-21 13:11:41.845  INFO 26864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-21 13:11:42.511  INFO 26864 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-01-21 13:11:42.525  INFO 26864 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-01-21 13:11:42.624  INFO 26864 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-01-21 13:11:42.671  INFO 26864 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.558 seconds (JVM running for 8.044)
+2021-01-21 13:11:42.682  INFO 26864 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-01-21 13:12:05.327  INFO 26864 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-21 13:12:05.327  INFO 26864 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-21 13:12:05.334  INFO 26864 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2021-01-21 13:12:05.360  INFO 26864 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:35838
+2021-01-21 13:12:05.450  INFO 26864 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:35838
+2021-01-21 13:12:37.811  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"volume":20,"guildId":"779292533053456404","op":"volume"}
+2021-01-21 13:12:38.576  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","sessionId":"bfd4c636dc26e849657f2bede98b8ef7","event":{"token":"0befdf36c6271696","endpoint":"eu-central590.discord.media:443"},"op":"voiceUpdate"}
+2021-01-21 13:12:41.588  INFO 26864 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Raven & Kreyn - Trouble"
+2021-01-21 13:12:41.828  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:12:42.577  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Raven & Kreyn - Trouble
+2021-01-21 13:12:42.670  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"endTime":138000,"track":"QAAAlAIALlJhdmVuICYgS3JleW4gLSBUcm91YmxlIChPZmZpY2lhbCBNdXNpYyBWaWRlbykADEhvdXNlIE5hdGlvbgAAAAAAAhsQAAtxU0JwRDd4Y2RSRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXFTQnBEN3hjZFJFAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:12:42.678  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:12:42.682  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"position":47930,"guildId":"779292533053456404","op":"seek"}
+2021-01-21 13:12:43.129  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:12:43.413  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"pause":true,"guildId":"779292533053456404","op":"pause"}
+2021-01-21 13:12:43.721  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:12:43.854  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:12:43.911  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"pause":false,"guildId":"779292533053456404","op":"pause"}
+2021-01-21 13:12:43.917  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:12:43.995  INFO 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$544/0x0000000800806840@4846f2cd
+2021-01-21 13:12:44.007  INFO 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-01-21 13:12:44.010  INFO 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-01-21 13:12:44.042  INFO 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-01-21 13:12:53.936  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"stop"}
+2021-01-21 13:12:53.944  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"destroy"}
+2021-01-21 13:13:04.899  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"volume":20,"guildId":"779292533053456404","op":"volume"}
+2021-01-21 13:13:05.240  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","sessionId":"bfd4c636dc26e849657f2bede98b8ef7","event":{"token":"6127fe161d38bbd6","endpoint":"eu-central590.discord.media:443"},"op":"voiceUpdate"}
+2021-01-21 13:13:07.547  INFO 26864 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Raven & Kreyn - Trouble"
+2021-01-21 13:13:07.548  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:13:08.111  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Raven & Kreyn - Trouble
+2021-01-21 13:13:08.209  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"endTime":138000,"track":"QAAAlAIALlJhdmVuICYgS3JleW4gLSBUcm91YmxlIChPZmZpY2lhbCBNdXNpYyBWaWRlbykADEhvdXNlIE5hdGlvbgAAAAAAAhsQAAtxU0JwRDd4Y2RSRQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXFTQnBEN3hjZFJFAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:13:08.213  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:13:08.223  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"position":47929,"guildId":"779292533053456404","op":"seek"}
+2021-01-21 13:13:08.377  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"pause":true,"guildId":"779292533053456404","op":"pause"}
+2021-01-21 13:13:08.746  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:13:08.797 ERROR 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.t.p.LocalAudioTrackExecutor      : Error in playback of qSBpD7xcdRE
+
+com.sedmelluq.discord.lavaplayer.tools.FriendlyException: Something broke when playing the track.
+	at com.sedmelluq.discord.lavaplayer.tools.ExceptionTools.wrapUnfriendlyExceptions(ExceptionTools.java:44) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:117) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager.lambda$executeTrack$1(DefaultAudioPlayerManager.java:349) ~[lavaplayer-1.3.61.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+Caused by: java.lang.RuntimeException: Not success status code: 403
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.validateStatusCode(PersistentHttpStream.java:88) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.attemptConnect(PersistentHttpStream.java:117) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.connect(PersistentHttpStream.java:106) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.internalRead(PersistentHttpStream.java:151) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.tools.io.PersistentHttpStream.read(PersistentHttpStream.java:167) ~[lavaplayer-1.3.61.jar!/:na]
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:270) ~[na:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.format.MatroskaEbmlReader.readEbmlInteger(MatroskaEbmlReader.java:39) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.format.MatroskaFileReader.readNextElement(MatroskaFileReader.java:46) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaStreamingFile.readFile(MatroskaStreamingFile.java:79) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.loadMatroskaFile(MatroskaAudioTrack.java:52) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.container.matroska.MatroskaAudioTrack.process(MatroskaAudioTrack.java:35) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.DelegatedAudioTrack.processDelegate(DelegatedAudioTrack.java:25) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.processStatic(YoutubeAudioTrack.java:57) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.source.youtube.YoutubeAudioTrack.process(YoutubeAudioTrack.java:49) ~[lavaplayer-1.3.61.jar!/:na]
+	at com.sedmelluq.discord.lavaplayer.track.playback.LocalAudioTrackExecutor.execute(LocalAudioTrackExecutor.java:105) ~[lavaplayer-1.3.61.jar!/:na]
+	... 4 common frames omitted
+
+2021-01-21 13:13:20.138  INFO 26864 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Hoved, Tungevaag - Let You Go - Tungevaag Edit"
+2021-01-21 13:13:20.140  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:13:20.875  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Hoved, Tungevaag - Let You Go - Tungevaag Edit
+2021-01-21 13:13:20.935  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"endTime":207000,"track":"QAAAjwIAI0hvdmVkIC0gTGV0IFlvdSBHbyAoVHVuZ2V2YWFnIEVkaXQpABJGdXR1cmUgSG91c2UgTXVzaWMAAAAAAAMomAALX2pZa3ZkWEZWclEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1fallrdmRYRlZyUQAHeW91dHViZQAAAAAAAAAA","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:13:20.938  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:13:21.385  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:15:24.373  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:15:50.481  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:16:48.284  INFO 26864 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:CVBE - The One I See"
+2021-01-21 13:16:48.296  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:16:48.939  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: CVBE - The One I See
+2021-01-21 13:16:49.106  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"endTime":156000,"track":"QAAAegIAFENWQkUgLSBUaGUgT25lIEkgU2VlAAxJbGx1bWkgTXVzaWMAAAAAAAJhYAALTVpJZ0puUGxTZVUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1NWklnSm5QbFNlVQAHeW91dHViZQAAAAAAAAAA","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:16:49.109  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:16:49.774  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:17:36.163  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:17:36.446  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:35838 -- CloseStatus[code=1006, reason=]
+2021-01-21 13:17:36.447  INFO 26864 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2021-01-21 13:17:44.248  INFO 26864 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:36115
+2021-01-21 13:17:44.253  INFO 26864 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:36115
+2021-01-21 13:18:04.369  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"volume":20,"guildId":"779292533053456404","op":"volume"}
+2021-01-21 13:18:05.187  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","sessionId":"f6d694434d45606cc98050fad1a1d065","event":{"token":"3c236cf1c3a84272","endpoint":"eu-central590.discord.media:443"},"op":"voiceUpdate"}
+2021-01-21 13:18:51.886  INFO 26864 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:CVBE - The One I See"
+2021-01-21 13:18:51.892  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:18:52.928  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: CVBE - The One I See
+2021-01-21 13:18:52.998  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"endTime":156000,"track":"QAAAegIAFENWQkUgLSBUaGUgT25lIEkgU2VlAAxJbGx1bWkgTXVzaWMAAAAAAAJhYAALTVpJZ0puUGxTZVUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1NWklnSm5QbFNlVQAHeW91dHViZQAAAAAAAAAA","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:18:53.001  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:18:53.178  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"pause":true,"guildId":"779292533053456404","op":"pause"}
+2021-01-21 13:18:53.556  WARN 26864 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:18:55.118  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"pause":false,"guildId":"779292533053456404","op":"pause"}
+2021-01-21 13:19:08.623  INFO 26864 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Juice WRLD - Man Of The Year"
+2021-01-21 13:19:08.627  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:19:09.280  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Juice WRLD - Man Of The Year
+2021-01-21 13:19:09.342  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"endTime":137000,"track":"QAAAkQIALUp1aWNlIFdSTEQgLSBNYW4gT2YgVGhlIFllYXIgKE9mZmljaWFsIEF1ZGlvKQAKSnVpY2UgV1JMRAAAAAAAAhcoAAtfWXdwcE1MUG9QZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PV9Zd3BwTUxQb1BnAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:19:09.347  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:19:10.091  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:19:12.292  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"position":27751,"guildId":"779292533053456404","op":"seek"}
+2021-01-21 13:19:57.251  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:20:22.750  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:21:01.437  INFO 26864 --- [XNIO-1 task-15] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Jack Harlow, Tory Lanez, DaBaby, Lil Wayne - Whats Poppin (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix] - Bonus Track"
+2021-01-21 13:21:01.462  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:21:02.262  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Jack Harlow, Tory Lanez, DaBaby, Lil Wayne - Whats Poppin (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix] - Bonus Track
+2021-01-21 13:21:02.329  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"endTime":228000,"track":"QAAAtgIAUUphY2sgSGFybG93IC0gV0hBVFMgUE9QUElOIGZlYXQuIERhYmFieSwgVG9yeSBMYW5leiwgJiBMaWwgV2F5bmUgW09mZmljaWFsIFZpZGVvXQALSmFjayBIYXJsb3cAAAAAAAN6oAALSEl3QUkwNVkxZlUAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1ISXdBSTA1WTFmVQAHeW91dHViZQAAAAAAAAAA","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:21:02.330  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:21:02.943  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:23:35.290  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:24:01.149  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:24:50.839  INFO 26864 --- [XNIO-1 task-17] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Juice WRLD - Wishing Well"
+2021-01-21 13:24:50.843  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:24:51.504  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Juice WRLD - Wishing Well
+2021-01-21 13:24:51.598  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"endTime":203000,"track":"QAAAlAIAMEp1aWNlIFdSTEQgLSBXaXNoaW5nIFdlbGwgKE9mZmljaWFsIE11c2ljIFZpZGVvKQAKSnVpY2UgV1JMRAAAAAAAAxj4AAtDNWktVW51VUtVSQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUM1aS1VbnVVS1VJAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:24:51.599  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:24:52.228  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:24:53.070  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:26:49.831  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:27:15.610  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:27:41.050  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:28:15.314  INFO 26864 --- [XNIO-1 task-19] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:The Kid LAROI - SO DONE"
+2021-01-21 13:28:15.328  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:28:15.968  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: The Kid LAROI - SO DONE
+2021-01-21 13:28:16.023  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"endTime":149000,"track":"QAAAnAIAMlRoZSBLaWQgTEFST0kgLSBTbyBEb25lIChEaXJlY3RlZCBieSBDb2xlIEJlbm5ldHQpABBMeXJpY2FsIExlbW9uYWRlAAAAAAACRggAC3lhc2ozajc2U3lNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eWFzajNqNzZTeU0AB3lvdXR1YmUAAAAAAAAAAA==","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:28:16.024  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:28:16.582  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:29:03.750  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:29:30.089  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:29:55.911  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:30:45.233  INFO 26864 --- [XNIO-1 task-21] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:The Kid LAROI, Juice WRLD - GO (feat. Juice WRLD)"
+2021-01-21 13:30:45.275  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:30:45.976  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: The Kid LAROI, Juice WRLD - GO (feat. Juice WRLD)
+2021-01-21 13:30:46.082  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"endTime":223000,"track":"QAAAlwIAL1RoZSBLaWQgTEFST0ksIEp1aWNlIFdSTEQgLSBHTyAoT2ZmaWNpYWwgVmlkZW8pAA5UaGUgS2lkIExBUk9JLgAAAAAAA2cYAAtaRDZDNDk4TUI0VQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVpENkM0OThNQjRVAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 13:30:46.089  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:30:46.550  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:30:51.534  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"stop"}
+2021-01-21 13:30:51.569  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"stop"}
+2021-01-21 13:30:51.833  INFO 26864 --- [XNIO-1 task-23] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:iann dior - Good Day"
+2021-01-21 13:30:51.873  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 13:30:52.523  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: iann dior - Good Day
+2021-01-21 13:33:21.813  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"stop"}
+2021-01-21 13:33:21.824  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"destroy"}
+2021-01-21 14:24:18.880  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"volume":20,"guildId":"779292533053456404","op":"volume"}
+2021-01-21 14:24:19.753  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","sessionId":"d61a0e08da04a1092cd0b56c740b052b","event":{"token":"f612b11f80f863e1","endpoint":"eu-central647.discord.media:443"},"op":"voiceUpdate"}
+2021-01-21 14:24:23.397  INFO 26864 --- [XNIO-1 task-25] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:iann dior - Good Day"
+2021-01-21 14:24:23.417  WARN 26864 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 14:24:24.037  INFO 26864 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: iann dior - Good Day
+2021-01-21 14:24:24.132  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"endTime":191000,"track":"QAAAjgIAK2lhbm4gZGlvciAtIEdvb2QgRGF5IChPZmZpY2lhbCBNdXNpYyBWaWRlbykACWlhbm4gZGlvcgAAAAAAAuoYAAtnRkwwaGJzRGRZZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWdGTDBoYnNEZFlnAAd5b3V0dWJlAAAAAAAAAAA=","noReplace":false,"startTime":0,"guildId":"779292533053456404","op":"play"}
+2021-01-21 14:24:24.154  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 14:24:24.321  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"pause":true,"guildId":"779292533053456404","op":"pause"}
+2021-01-21 14:24:24.804  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 14:24:25.485  WARN 26864 --- [lava-daemon-pool-playback-1-thread-2] c.s.l.e.y.p.BalancingIpRoutePlanner      : Could not look up AAAA record for host. Falling back to unbalanced IPv4.
+2021-01-21 14:24:27.564  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"pause":false,"guildId":"779292533053456404","op":"pause"}
+2021-01-21 14:24:50.343  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"stop"}
+2021-01-21 14:24:50.347  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"779292533053456404","op":"destroy"}
+2021-01-21 14:38:28.925  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:36115 -- CloseStatus[code=1006, reason=]
+2021-01-21 14:38:28.926  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-01-21 14:45:28.397  INFO 26864 --- [XNIO-1 task-27] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:23895
+2021-01-21 14:45:28.402  INFO 26864 --- [XNIO-1 task-27] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:23895
+2021-01-21 14:45:51.959  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:23895 -- CloseStatus[code=1006, reason=]
+2021-01-21 14:45:51.961  INFO 26864 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-01-21 14:45:59.014  INFO 26864 --- [XNIO-1 task-28] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:23925
+2021-01-21 14:45:59.018  INFO 26864 --- [XNIO-1 task-28] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:23925
+2021-01-21 14:46:21.973  INFO 26864 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:23925 -- CloseStatus[code=1006, reason=]
+2021-01-21 14:46:21.973  INFO 26864 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-01-21 14:46:29.484  INFO 26864 --- [XNIO-1 task-29] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:23960
+2021-01-21 14:46:29.491  INFO 26864 --- [XNIO-1 task-29] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:23960
+2021-01-21 16:15:21.927  INFO 26864 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:23960 -- CloseStatus[code=1006, reason=]
+2021-01-21 16:15:21.929  INFO 26864 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
